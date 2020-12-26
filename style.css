@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #2a2c37;
+}
+.nav-links {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #22212c;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.nav-links:hover {
+  background: #2a2c37;
+  border-radius: 6px;
+}
+
+.dropdown {
+  background-color: #22212c;
+  position: absolute;
+  transition: height 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+.dropdown.closed {
+  height: 0px;
+}
+
+.dropdown.open {
+  height: 200px;
+}
+
+.fas {
+  padding-left: 5px;
+}
